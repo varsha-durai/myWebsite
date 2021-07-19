@@ -1,0 +1,96 @@
+.container {
+    height: 5060px;
+    width: 1300px;
+    display: flex;
+}
+
+.container-lg {
+    height: 4910px;
+    width: 270px;
+    background: orange;
+    padding-top: 150px;
+}
+
+.container-profile {
+    height: 120px;
+    width: 150px;
+    background: pink;
+    margin-left: 50px;
+}
+
+.container-contents {
+    height: 300px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.text {
+    color: grey;
+    text-align: center;
+}
+
+.container-md {
+    height: 5060px;
+    width: 50px;
+}
+
+.container-xl {
+    height: 4800px;
+    width: 980px;
+}
+
+.container-address {
+    height: 700px;
+    width: 980px;
+}
+
+.container-sm {
+    height: 50px;
+    width: 50px;
+    background: grey;
+}
+
+.container-experience {
+    height: 1400px;
+    width: 980px;
+}
+
+.container-info {
+    height: 250px;
+    width: 680px;
+}
+
+.container-duration {
+    height: 50px;
+    width: 300px;
+}
+
+.container-education {
+    height: 750px;
+    width: 980px;
+}
+
+.container-skills {
+    height: 700px;
+    width: 980px;
+}
+
+.container-interests {
+    height: 700px;
+    width: 980px;
+}
+
+.container-awards {
+    height: 700px;
+    width: 980px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.container-line {
+    height: 1px;
+    width: 980px;
+    background: grey;
+}
