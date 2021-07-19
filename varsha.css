@@ -1,11 +1,11 @@
 .container {
-    height: 5060px;
+    height: 5200px;
     width: 1300px;
     display: flex;
 }
 
 .container-lg {
-    height: 4910px;
+    height: 5060px;
     width: 270px;
     background: orange;
     padding-top: 150px;
@@ -30,7 +30,7 @@
 }
 
 .container-md {
-    height: 5060px;
+    height: 5200px;
     width: 50px;
 }
 
