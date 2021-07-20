@@ -1,6 +1,4 @@
 .container {
-    height: 5200px;
-    width: 1300px;
     display: flex;
 }
 
@@ -44,7 +42,7 @@
     padding-top: 150px;
     height: 700px;
     width: 980px;
-    font-family: 'roboto', 'Noto Sans TC';
+    font-family: 'Roboto', 'Noto Sans TC';
 }
 
 .container-address h1 {
@@ -85,25 +83,25 @@
 .container-education {
     height: 750px;
     width: 980px;
-    font-family: 'roboto', 'Noto Sans TC';
+    font-family: 'Roboto', 'Noto Sans TC';
 }
 
 .container-skills {
     height: 700px;
     width: 980px;
-    font-family: 'roboto', 'Noto Sans TC';
+    font-family: 'Roboto', 'Noto Sans TC';
 }
 
 .container-interests {
     height: 700px;
     width: 980px;
-    font-family: 'roboto', 'Noto Sans TC';
+    font-family: 'Roboto', 'Noto Sans TC';
 }
 
 .container-awards {
     height: 700px;
     width: 980px;
-    font-family: 'roboto', 'Noto Sans TC';
+    font-family: 'Roboto', 'Noto Sans TC';
 }
 
 .flexbox {
