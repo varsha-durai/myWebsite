@@ -16,6 +16,7 @@
     width: 150px;
     background: pink;
     margin-left: 50px;
+    border-radius: 100%;
 }
 
 .container-contents {
@@ -40,19 +41,35 @@
 }
 
 .container-address {
+    padding-top: 150px;
     height: 700px;
     width: 980px;
+    font-family: 'roboto', 'Noto Sans TC';
+}
+
+.container-address h1 {
+    color: orangered;
+}
+
+.container-address p {
+    font-family: 'Noto Sans TC';
 }
 
 .container-sm {
     height: 50px;
     width: 50px;
     background: grey;
+    border-radius: 100%;
 }
 
 .container-experience {
     height: 1400px;
     width: 980px;
+}
+
+.container-experience p {
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
 }
 
 .container-info {
@@ -68,21 +85,25 @@
 .container-education {
     height: 750px;
     width: 980px;
+    font-family: 'roboto', 'Noto Sans TC';
 }
 
 .container-skills {
     height: 700px;
     width: 980px;
+    font-family: 'roboto', 'Noto Sans TC';
 }
 
 .container-interests {
     height: 700px;
     width: 980px;
+    font-family: 'roboto', 'Noto Sans TC';
 }
 
 .container-awards {
     height: 700px;
     width: 980px;
+    font-family: 'roboto', 'Noto Sans TC';
 }
 
 .flexbox {
@@ -94,3 +115,5 @@
     width: 980px;
     background: grey;
 }
+
+@media only screen and(max-width:600px) {}
