@@ -1,0 +1,107 @@
+container {
+    display: flex;
+}
+
+container .left-panel {
+    height: 4200px;
+    width: 250px;
+    background: #ec9e0e;
+}
+
+container .left-panel .profile {
+    height: 100px;
+    width: 100px;
+    background: skyblue;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+container .right-panel {
+    margin-left: 50px;
+}
+
+container .right-panel .col-abt {
+    height: 100vh;
+    font-family: "Roboto", "Noto Sans TC";
+}
+
+container .right-panel .col-abt .col-abt h1 {
+    color: #ec9e0e;
+}
+
+container .right-panel .col-abt .col-abt h1 .col-abt .col-exp p {
+    font-family: "Noto Sans TC";
+}
+
+container .right-panel .icons .icon1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #413f3f;
+    border-radius: 50%;
+    color: beige;
+}
+
+container .right-panel .col-exp {
+    height: 100vh;
+    font-family: "Roboto", "Noto Sans TC";
+}
+
+container .right-panel .col-exp .d-flex {
+    display: flex;
+}
+
+container .right-panel .col-exp .d-flex .col-2 {
+    height: 200px;
+    width: 700px;
+}
+
+container .right-panel .col-exp .d-flex .col-2 .row-1 text {
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
+container .right-panel .col-edu {
+    height: 100vh;
+    font-family: "Roboto", "Noto Sans TC";
+}
+
+container .right-panel .col-edu .d-flex {
+    display: flex;
+}
+
+container .right-panel .col-edu .d-flex .col-edu .col-2 {
+    margin-top: 200px;
+    height: 200px;
+    width: 700px;
+}
+
+container .right-panel .col-edu .d-flex .col-edu .col-2 .row-1 text {
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
+container .right-panel .col-skill {
+    height: 100vh;
+    font-family: "Roboto", "Noto Sans TC";
+}
+
+container .right-panel .col-int {
+    height: 100vh;
+    font-family: "Roboto", "Noto Sans TC";
+    justify-content: center;
+}
+
+container .right-panel col-awards {
+    height: 100vh;
+    font-family: "Roboto", "Noto Sans TC";
+    justify-content: center;
+}
+
+
+/*# sourceMappingURL=compiled.css.map */

@@ -1,0 +1,96 @@
+.container-fluid {
+    display: flex;
+    .left-panel {
+        background: #bd5d38;
+        .profile {
+            height: 100px;
+            width: 100px;
+            background: skyblue;
+            border-radius: 50%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    }
+    .right-panel {
+        margin-left: 50px;
+        .about {
+            height: 100vh;
+            font-family: 'Roboto', 'Noto Sans TC';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .about h1 {
+                color: #bd5d38;
+                .about .experience p {
+                    font-family: 'Noto Sans TC';
+                }
+            }
+        }
+        .icons .icon1 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            width: 30px;
+            background-color: rgb(65, 63, 63);
+            border-radius: 50%;
+            color: beige;
+        }
+        .experience {
+            height: 100vh;
+            font-family: 'Roboto', 'Noto Sans TC';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .d-flex {
+                display: flex;
+                .info {
+                    width: 700px;
+                    .row-1 text {
+                        width: 250px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .education {
+            height: 100vh;
+            font-family: 'Roboto', 'Noto Sans TC';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .d-flex {
+                display: flex;
+                .education .info {
+                    width: 700px;
+                    .row-1 text {
+                        height: 200px;
+                        width: 250px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .skills {
+            height: 100vh;
+            font-family: 'Roboto', 'Noto Sans TC';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .interests {
+            height: 100vh;
+            font-family: 'Roboto', 'Noto Sans TC';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .awards {
+            height: 100vh;
+            font-family: 'Roboto', 'Noto Sans TC';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
